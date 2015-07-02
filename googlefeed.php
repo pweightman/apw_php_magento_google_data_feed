@@ -212,4 +212,4 @@ function process_configurable_product($_product, &$channelNode, &$doc) {
 	}
 }
 
-
+?>
