@@ -14,7 +14,7 @@ try{
     $channelNode = $rootNode->appendChild($doc->createElement('channel'));
     $channelNode->appendChild($doc->createElement('title', 'APW Trading Google Data Feed'));
     $channelNode->appendChild($doc->createElement('description', 'Google Products Data Feed'));
-    $channelNode->appendChild($doc->createElement('link', 'http://www.apwtrading.co.uk.co.uk'));
+    $channelNode->appendChild($doc->createElement('link', 'http://www.apwtrading.co.uk'));
 
 	$products = Mage::getModel('catalog/product')->getCollection()
     	->addAttributeToSelect('id')
